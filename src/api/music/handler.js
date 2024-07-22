@@ -34,6 +34,13 @@ class MusicHandler {
     };
   }
 
+  async getMusicsProductHandler() {
+    // const songs = await this._service.getMusics();
+    return {
+      status: 'success',
+    };
+  }
+
   async getMusicByIdHandler(request) {
     const { id } = request.params;
     const song = await this._service.getMusicById(id);

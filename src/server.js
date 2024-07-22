@@ -61,7 +61,7 @@ const init = async () => {
     host: process.env.HOST,
     routes: {
       cors: {
-        origin: ['*','https://toko-peach.vercel.app', 'toko-peach.vercel.app', 'https://vercel.app'],
+        origin: ['https://toko-peach.vercel.app', 'toko-peach.vercel.app', 'https://vercel.app'],
       },
     },
   });
